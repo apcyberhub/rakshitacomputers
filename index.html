@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakshita Computers & E-Mitra - Best Computer Institute</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Rakshita Computers Logo" class="logo-img">
+                <span>Rakshita Computers & E-Mitra</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <!-- Hero Section - Updated with Sliding Images -->
+<section id="home" class="hero">
+    <!-- Sliding Background Images -->
+    <div class="hero-slides">
+        <div class="slide active" style="background-image: url('images/class1.jpeg')"></div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')"></div>
+        <div class="slide" style="background-image: url('images/main\ .jpeg')"></div>
+        <div class="slide" style="background-image: url('images/class.jpeg')"></div>
+    </div>
+    
+    <!-- Overlay -->
+    <div class="hero-overlay"></div>
+    
+    <!-- Content - Bottom Positioned -->
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1 class="hero-title">Your Future, Our Responsibility</h1>
+            <p class="hero-subtitle">RS-CIT • Tally • DCA • PGDCA • Typing • O Level</p>
+            <div class="hero-buttons">
+                <a href="#courses" class="cta-button primary">View Courses</a>
+                <a href="#contact" class="cta-button secondary">Free Counseling</a>
+            </div>
+        </div>
+        <!-- Slide Indicator -->
+        <div class="slide-indicator">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+        </div>
+    </div>
+</section>
+
+    <!-- Director Section -->
+    <section id="director" class="director-section">
+        <div class="container">
+            <div class="director-content">
+                <div class="director-image-wrapper">
+                    <img src="images/arun.png" alt="Director Name" class="director-img">
+                    <div class="director-badge">Director</div>
+                </div>
+                <div class="director-text">
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 1rem;">Message from the Director</h2>
+                    <h3 class="director-name">Mr. Arun Mehra</h3>
+                    <p class="director-message">
+                        "Welcome to Rakshita Computers & E-Mitra. Our mission is to empower students with the best computer education and practical skills needed to excel in today's digital world. We are committed to your success and bright future."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Our Popular Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card" data-course="RS-CIT">
+                    <div class="course-header">
+                        <i class="fas fa-graduation-cap course-icon"></i>
+                    </div>
+                    <h3>RS-CIT</h3>
+                    <p>Government Recognized Course</p>
+                    <div class="course-meta">
+                        <span class="price">₹4500</span>
+                        <span class="duration">3 Months</span>
+                    </div>
+                </div>
+                <div class="course-card" data-course="Tally">
+                    <div class="course-header">
+                        <i class="fas fa-calculator course-icon"></i>
+                    </div>
+                    <h3>Tally Prime</h3>
+                    <p>GST Included Full Course</p>
+                    <div class="course-meta">
+                        <span class="price">₹6000</span>
+                        <span class="duration">2 Months</span>
+                    </div>
+                </div>
+                <div class="course-card" data-course="DCA">
+                    <div class="course-header">
+                        <i class="fas fa-laptop-code course-icon"></i>
+                    </div>
+                    <h3>DCA</h3>
+                    <p>MS Office + Graphics</p>
+                    <div class="course-meta">
+                        <span class="price">₹8000</span>
+                        <span class="duration">6 Months</span>
+                    </div>
+                </div>
+                <div class="course-card" data-course="PGDCA">
+                    <div class="course-header">
+                        <i class="fas fa-certificate course-icon"></i>
+                    </div>
+                    <h3>PGDCA</h3>
+                    <p>Advanced Level Course</p>
+                    <div class="course-meta">
+                        <span class="price">₹15000</span>
+                        <span class="duration">1 Year</span>
+                    </div>
+                </div>
+                <div class="course-card" data-course="Typing">
+                    <div class="course-header">
+                        <i class="fas fa-keyboard course-icon"></i>
+                    </div>
+                    <h3>Typing</h3>
+                    <p>Hindi/English 25/30 WPM</p>
+                    <div class="course-meta">
+                        <span class="price">₹2500</span>
+                        <span class="duration">1 Month</span>
+                    </div>
+                </div>
+                <div class="course-card" data-course="O-Level">
+                    <div class="course-header">
+                        <i class="fas fa-layer-group course-icon"></i>
+                    </div>
+                    <h3>O Level</h3>
+                    <p>DOEACC Government Course</p>
+                    <div class="course-meta">
+                        <span class="price">₹12000</span>
+                        <span class="duration">1 Year</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Center Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/class.jpeg" alt="Classroom" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/class1.jpeg" alt="Computer Lab" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/image2.jpeg" alt="Certificates" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/poster.jpeg" alt="Gallery Image 4" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/front image.jpeg" alt="Gallery Image 5" class="gallery-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>100% Placement</h3>
+                    <p>Job Guarantee</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Flexible Timing</h3>
+                    <p>3 Shifts Available</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Government Approved</h3>
+                    <p>Valid Certificates</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Always Available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us Now</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Phone Number" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <select id="course" required>
+                        <option value="">Select Course</option>
+                        <option value="RS-CIT">RS-CIT</option>
+                        <option value="Tally">Tally Prime</option>
+                        <option value="DCA">DCA</option>
+                        <option value="PGDCA">PGDCA</option>
+                        <option value="Typing">Typing</option>
+                        <option value="O-Level">O Level</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Center Info - EASY TO REPLACE -->
+    <section class="center-info">
+        <div class="container">
+            <h2 class="section-title">Our Center Details</h2>
+            <div class="center-details">
+                <div class="center-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>📍 Address</h3>
+                    <p id="center-address">Dhabai Ji Ka Tekra, Pandit Ganesh Narayan Marg, Chirawa</p>
+                </div>
+                <div class="center-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>📞 Phone</h3>
+                    <p id="center-phone"><strong>+91 7568478887</strong></p>
+                    <p id="center-phone"><strong>+91 9772039169</strong></p>
+                </div>
+                <div class="center-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>✉️ Email</h3>
+                    <p id="center-email">rce78887@gmail.com</p>
+                </div>
+                <div class="center-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>⏰ Timings</h3>
+                    <p>Mon-Sat: 8AM - 8PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://wa.me/917568478887" target="_blank" rel="noopener noreferrer" class="social-btn" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/share/1DocZD8aXM/" target="_blank" rel="noopener noreferrer" class="social-btn" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/rakshita_computers_chirawa?igsh=ODVkaTN0Z3Y2b2pr" target="_blank" rel="noopener noreferrer" class="social-btn" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2026 Rakshita Computers & E-Mitra. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
